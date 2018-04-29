@@ -12,6 +12,7 @@ public class ThymeleafController {
 
     public String index(ModelMap map){
         map.put("name","hello guokai");
+        System.out.println(1/0);
         return "thymeleaf/index.html";
     }
 }
